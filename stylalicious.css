@@ -1,0 +1,76 @@
+body{
+background: #FF3300;
+}
+
+div{
+border-radius: 10px;
+}
+
+h1{
+text-align: center;
+color: #FF0000;
+font-family: Calibri;
+}
+
+h3{
+margin-left: 25px;
+text-align: left;
+color: #FF0000;
+font-family: Calibri;
+}
+
+.thing{
+height: 600px;
+width: 900px;	
+background-color: #F38630;
+margin-bottom: auto;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+}
+
+ul{
+list-style: square;
+}
+
+li{
+color: #CC0000;
+font-size: 18px;
+}
+
+ul li a:hover{
+font-style: oblique;
+color: #CC0066;
+}
+
+a:link{
+color: #FFFF00;
+font-style: none;
+}
+
+a:visited{
+color: #FFFF00;
+}
+
+button {
+border: 0;
+background: linear-gradient(#768191, #535b65);
+border-radius: 4px;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
+color: #fff;
+cursor: pointer;
+font-weight: bold;
+padding: 12px 20px;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+text-transform: uppercase;
+transition: all .1s linear;
+margin-left: 10px;
+}
+button:hover {
+color: #d4d7da;
+}
+button:active {
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
+transform: translateY(3px);
+}
