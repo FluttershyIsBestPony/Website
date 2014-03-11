@@ -1,0 +1,133 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+/* Loading CSS*/
+/*.loader {
+   position: absolute;
+   margin: 0 auto;
+   z-index: 9999;
+   background: url (images/ajax-loader.gif) no-repeat center center; 
+   top: 50 px;
+   cursor: wait;*/
+
+ 
+.pic{  
+  float: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  border: 10px dashed #00FF00;
+}
+.githublogo{
+-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  margin: auto;
+}
+.githublogo:hover{
+-webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+.image{
+height:275px;
+width:275px;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float:center;
+}
+body{
+background: #696969;
+}
+.box {
+    background: #00FF00;
+    border-radius: 6px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+	height: 400px;
+	width: 400px;
+	border-radius: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	font-family: Calibri;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	line-height:400px;
+	float: left;
+  }
+  .box:hover {
+    background: #000000;
+    border-radius: 50%;
+  }
+  .box2 {
+    background: #000000;
+    border-radius: 6px;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+	height: 400px;
+	width: 400px;
+	border-radius: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+	font-family: Calibri;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	line-height:400px;
+	float:right;
+  }
+  .box2:hover {
+    background: #00FF00;
+    border-radius: 50%;
+  }
+  a:hover{
+   text-decoration:bold;
+   color:#00FF00;
+  }
+  a:visited{
+   text-decoration:none;
+  }
+  a:link{
+   text-decoration:none;
+  }
+  .a2{
+  color:#00FF00;
+  }
+  .a2:hover{
+  text-decoration:bold;
+  color:#000000;
+  }
+  a{
+   color:#000000;
+  }
+  .yeahbuddy{
+  float:center;
+  margin-top:50px;
+  }
+  .banana{
+  float:center;
+  }
+  .information{
+  /*ADD SOMETHING*/
+  }
